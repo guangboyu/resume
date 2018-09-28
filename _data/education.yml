@@ -1,0 +1,12 @@
+# Degree
+- degree: Master of Computer Science
+  uni: University of Southern California
+  year: 2015 &mdash; 2017
+  gpa: 3.2
+
+- degree: Bachelor of Computer Science
+  uni: University of Electronic Science and Technology of China
+  year: 2011 &mdash; 2015
+  gpa: 3.7
+  awards:
+    - award: People's scholarship

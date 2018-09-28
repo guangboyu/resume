@@ -1,0 +1,6 @@
+# Jobs
+# VP of Global Communications
+- company: Luzhou Hospital
+  position: Java Software Engineer(Intern)
+  duration: Jan, 2015 &mdash; May, 2015
+  summary: Responsible for developing backend API of an E-commerce System. <ul class="resume-item-list"><li>Implemented QR code payment module. (Alipay SDK)</li><li>Designed and implemented database schema for persistence and implemented Vo, Dao, Pojo, Mapper. (MySQL, MyBatis)</li><li>Deployed and configured Nginx, Tomcat, Ftp Server and Iptables. (Alibaba Cloud)</li></ul>

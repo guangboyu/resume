@@ -1,0 +1,28 @@
+# Projects
+# uncomment the urls if you wish to display them, and add your own URL
+
+# jazznotes.io
+- project: Byte Cup Machine Learning Competition
+  role: Primary Developer
+  duration: 08/2016 &mdash; 12/2016
+  # url: "#"
+  description: An international Machine Learning Competition of match community raised questions with domain experts held by IEEE-China and Toutiao.<ul class="resume-item-list"><li>Preprocessed data and generated features, implemented and applied PCA on 100 GB data using Python in Google Cloud Linux Environment.</li><li>Explored algorithms to optimize the accuracy. (Linear Regression, SVM, Keras Neural Network, XGBoost, Item-item Collaborative Filtering, FM)</li></ul>
+
+# Springfield Community Outreach Group
+- project: Tap News, Real-Time News Scraping and Recommendation System
+  role: Primary Developer
+  duration: 04/2018 &mdash; 05/2018
+  # url: "#"
+  description: Implemented a data pipeline which monitors, scrapes and dedupes latest news. (MongoDB, Redis, RabbitMQ, TF-IDF)<ul class="resume-item-list"><li>Built a single-page web application for users to browse news. (React, Node.js, RPC, SOA, JWT)</li><li>Implemented a click event log processor which collects users’ click logs, then updates a news preference model for each user. (NLP)</li><li>Designed and built an offline training pipeline for news topic modeling. (Tensorflow, DNN, NLP)</li><li>Deployed an online classifying service for news topic modeling using the trained model.</li></ul>
+
+- project: Movie Recommender System
+  role: Primary Developer
+  duration: 08/2017 &mdash; 09/2017
+  # url: "#"
+  description: Built a recommender system to recommend movies based on an adapted Netflix user dataset.(JAVA)<ul class="resume-item-list"><li>Computed top 5 recommendations for each user.(item collaborative filtering)</li><li>Processed 1GB data by Hadoop MapReduce jobs in the environment set up by Docker.</li></ul>
+
+- project: Weenix OS
+  role: Primary Developer
+  duration: 01/2016 &mdash; 05/2016
+  # url: "#"
+  description: Mini Unix-like OS kernel written in C in Linux Environment<ul class="resume-item-list"><li>Implemented key components including process management, drivers for terminals and hard disks, VFS, andpage-based virtual memory</li><li>Implemented system calls including fork, waitpid, execve, open, read/write, mmap, sbrk, etc.</li></ul>
