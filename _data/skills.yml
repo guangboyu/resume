@@ -4,7 +4,7 @@
   description: <ul class="resume-item-list"><li>Python</li><li>Java</li><li>Javascript</li><li>C</li>
 # Communications strategy
 - skill: Data & Machine Learning
-  description: <ul class="resume-item-list"><li>Hadoop</li><li>Spark</li><li>Data Mining</li><li>Supervised Machine Learning</li></ul>
+  description: <ul class="resume-item-list"><li>Hadoop</li><li>Spark</li><li>Data Mining</li><li>Panda, Numpy, scikit-learn</li></ul>
 
 # Digital content development and creation
 - skill: Web Development
