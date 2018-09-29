@@ -26,3 +26,9 @@
   duration: 01/2016 &mdash; 05/2016
   # url: "#"
   description: Mini Unix-like OS kernel written in C in Linux Environment<ul class="resume-item-list"><li>Implemented key components including process management, drivers for terminals and hard disks, VFS, andpage-based virtual memory</li><li>Implemented system calls including fork, waitpid, execve, open, read/write, mmap, sbrk, etc.</li></ul>
+
+- project: Twitter Sentiment Analysis
+  role: Primary Developer
+  duration: 08/2016 &mdash; 09/2016
+  # url: "#"
+  description: <ul class="resume-item-list"><li>Extracted live streaming twitter by Python and Oauth2 library.</li><li>Implemented the module calculating term frequency and document frequency</li><li>Used Apache Spark and Scala to derive Tweet Sentiment Score.</li></ul>
