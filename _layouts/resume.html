@@ -45,7 +45,9 @@
         <a class="contact-button not-looking no-print">I'm not looking for work right now.</a>
         {% else %}
         {% endif %}
-        <a href="CV/guangboyu_CV.pdf" class="contact-button no-print" itemprop="email" download>Download CV</a>
+        <a href="CV/guangboyu_CV.pdf" class="contact-button no-print" >Download CV</a>
+        <a href="CV/USC_guangboyu.pdf" class="contact-button no-print">M.S transcript</a>
+        <a href="CV/UESTC_guangboyu.pdf" class="contact-button no-print">B.E transcript</a>
 
       </header>
 
@@ -63,6 +65,7 @@
           {% if education.gpa %}
           <h4 class="resume-item-details group" itemprop="description">GPA: {{ education.gpa }}</h4>
           {% endif %}
+          
           <h5 class="resume-item-details award-title" itemprop="description">{{ education.award }}</h5>
           <p class="resume-item-copy" itemprop="description">
             <ul class="resume-item-list">
