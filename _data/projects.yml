@@ -10,11 +10,11 @@
 
 
 # Springfield Community Outreach Group
-- project: Tap News, Real-Time News Scraping and Recommendation System
-  role: Primary Developer
-  duration: 04/2018 &mdash; 05/2018
-  # url: "#"
-  description: Implemented a data pipeline which monitors, scrapes and dedupes latest news. (MongoDB, Redis, RabbitMQ, TF-IDF)<ul class="resume-item-list"><li>Built a single-page web application for users to browse news. (React, Node.js, RPC, SOA, JWT)</li><li>Implemented a click event log processor which collects users’ click logs, then updates a news preference model for each user. (NLP)</li><li>Designed and built an offline training pipeline for news topic modeling. (Tensorflow, DNN, NLP)</li><li>Deployed an online classifying service for news topic modeling using the trained model.</li></ul>
+# - project: Tap News, Real-Time News Scraping and Recommendation System
+#   role: Primary Developer
+#   duration: 04/2018 &mdash; 05/2018
+#   # url: "#"
+#   description: Implemented a data pipeline which monitors, scrapes and dedupes latest news. (MongoDB, Redis, RabbitMQ, TF-IDF)<ul class="resume-item-list"><li>Built a single-page web application for users to browse news. (React, Node.js, RPC, SOA, JWT)</li><li>Implemented a click event log processor which collects users’ click logs, then updates a news preference model for each user. (NLP)</li><li>Designed and built an offline training pipeline for news topic modeling. (Tensorflow, DNN, NLP)</li><li>Deployed an online classifying service for news topic modeling using the trained model.</li></ul>
 
 - project: Energy Star Score Prediction
   role: Primary Developer
