@@ -1,11 +1,12 @@
 # Jobs
 # VP of Global Communications
+- company: New Beast Corporation
+  position: Software Engineer
+  duration: Aug, 2017 &mdash; Jul, 2018
+  summary: Designed and Built a data pipeline which monitors, scrapes and dedupes latest news. (MongoDB, Redis, RabbitMQ, TF-IDF)  <ul class="resume-item-list"><li>Built a single-page web application for users to browse news. (React, Node.js, RPC, SOA, JWT)</li><li>Implemented a click event log processor which collects users’ click logs, then updates a news preference model for each user. (NLP)</li><li>Designed and built an offline training pipeline for news topic modeling. (Tensorflow, DNN, NLP)</li><li>Deployed an online classifying service for news topic modeling using the trained model.</li></ul>
+
 - company: Luzhou Hospital
   position: Java Software Engineer(Intern)
   duration: Jan, 2015 &mdash; May, 2015
   summary: Responsible for developing backend API of an E-commerce System. <ul class="resume-item-list"><li>Implemented QR code payment module. (Alipay SDK)</li><li>Designed and implemented database schema for persistence and implemented Vo, Dao, Pojo, Mapper. (MySQL, MyBatis)</li><li>Deployed and configured Nginx, Tomcat, Ftp Server and Iptables. (Alibaba Cloud)</li></ul>
 
-- company: New Beast Corporation
-  position: Software Engineer
-  duration: Aug, 2017 &mdash; Jul, 2018
-  summary: Designed and Built a data pipeline which monitors, scrapes and dedupes latest news. (MongoDB, Redis, RabbitMQ, TF-IDF)  <ul class="resume-item-list"><li>Built a single-page web application for users to browse news. (React, Node.js, RPC, SOA, JWT)</li><li>Implemented a click event log processor which collects users’ click logs, then updates a news preference model for each user. (NLP)</li><li>Designed and built an offline training pipeline for news topic modeling. (Tensorflow, DNN, NLP)</li><li>Deployed an online classifying service for news topic modeling using the trained model.</li></ul>
