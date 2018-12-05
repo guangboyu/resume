@@ -6,7 +6,7 @@
   role: Primary Developer
   duration: 08/2016 &mdash; 12/2016
   # url: "#"
-  description: An international Machine Learning Competition of match community raised questions with domain experts held by IEEE-China and Toutiao.<ul class="resume-item-list"><li>Preprocessed data and generated features, implemented and applied TF-IDF model on 100 GB data using Python in Google Cloud Linux Environment.</li><li>Explored algorithms (Linear Regression, SVM, Keras Neural Network, XGBoost, Collaborative Filtering, etc) and implemented Factorization Machine and Stacking to increase the NDCG score by 9%.</li></ul>
+  description: An international Machine Learning Competition of match community raised questions with domain experts held by IEEE-China and Toutiao.<ul class="resume-item-list"><li>Constructed a 2-layer Stacking model, the first layer used Factorization Machine (FM), LR and XGBoost as the base model, trained, merged and generated meta-features.</li><li>The second layer extracted SVD, TSNE, NMF dimension reduction information using the features of the first layer FM model and combined the meta-features from the first-layer to train XGBoost model</li><li>Combined the Stacking and Collaborate Filter model with a weight of 2:1 to generate the final model and improved the result by 9%</li></ul>
 
 
 # Springfield Community Outreach Group
