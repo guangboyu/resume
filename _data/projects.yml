@@ -2,11 +2,16 @@
 # uncomment the urls if you wish to display them, and add your own URL
 
 # jazznotes.io
+- project: Energy Star Score Prediction
+  role: Primary Developer
+  duration: 01/2018 &mdash; 02/2018
+  description: Built a data pipeline to clean, analysis the building energy dataset and developed a model to predict the energy star score.<ul class="resume-item-list"><li>Visualizing the relationship between features and remove collinear features via matplotlib and seaborn.</li><li>Used Gradient Boosting model and tuned hyperparameters to increased the MAE by 35% compared to Linear Regression.
+
 - project: Byte Cup Machine Learning Competition
   role: Primary Developer
-  duration: 08/2016 &mdash; 12/2016
+  duration: 2016
   # url: "#"
-  description: An international Machine Learning Competition of match community raised questions with domain experts held by IEEE-China and Toutiao.<ul class="resume-item-list"><li>Constructed a 2-layer Stacking model, the first layer used Factorization Machine (FM), LR and XGBoost as the base model, trained, merged and generated meta-features.</li><li>The second layer extracted SVD, TSNE, NMF dimension reduction information using the features of the first layer FM model and combined the meta-features from the first-layer to train XGBoost model</li><li>Combined the Stacking and Collaborate Filter model with a weight of 2:1 to generate the final model and improved the result by 9%</li></ul>
+  description: International Machine Learning Competition hosted by IEEE-China and Toutiao in which teams attempt to build the most accurate predictive models of community-based questions and answers. Constructed a 2-layer Stacking model in which the first layer used Factorization Machine (FM), LR and XGBoost as the base model, which were merged and then generated the meta-features. The second layer extracted SVD, TSNE, NMF dimension reduction information from the first layer FM model and combined this with the meta-features from the first-layer to train an XGBoost model.
 
 
 # Springfield Community Outreach Group
@@ -15,31 +20,26 @@
 #   duration: 04/2018 &mdash; 05/2018
 #   # url: "#"
 #   description: Implemented a data pipeline which monitors, scrapes and dedupes latest news. (MongoDB, Redis, RabbitMQ, TF-IDF)<ul class="resume-item-list"><li>Built a single-page web application for users to browse news. (React, Node.js, RPC, SOA, JWT)</li><li>Implemented a click event log processor which collects users’ click logs, then updates a news preference model for each user. (NLP)</li><li>Designed and built an offline training pipeline for news topic modeling. (Tensorflow, DNN, NLP)</li><li>Deployed an online classifying service for news topic modeling using the trained model.</li></ul>
-- project: Surgery Blood Prediction
-  url: "/CV/EBL_report.pdf"
+- project: Surgery Blood Cell Prediction
   role: Primary Developer
-  duration: 10/2018 &mdash; 11/2018
-  description: Built a data pipeline to predict the blood using in surgery to minimize the blood waste.<ul class="resume-item-list"><li>Preprocessed the data including filling missing data, outlier detection and data cleaning.</li><li>Conducted feature engeering including label encoding, log transformation to minimize the skewness</li><li>Visualizing the data and conducted feature selction to remove collinear features.</li><li>Built and tuned a Random Forest model to increased the MAE by 102% compared to Linear Regression.
-
-- project: Energy Star Score Prediction
-  role: Primary Developer
-  duration: 01/2018 &mdash; 02/2018
-  description: Built a data pipeline to clean, analysis the building energy dataset and developed a model to predict the energy star score.<ul class="resume-item-list"><li>Visualizing the relationship between features and remove collinear features via matplotlib and seaborn.</li><li>Used Gradient Boosting model and tuned hyperparameters to increased the MAE by 35% compared to Linear Regression.
+  duration: 2017
+  description: In collaboration with USC’s Keck Hospital, built a Machine Learning system that optimizes the amount of blood required for surgical procedures. Pre-processed the dataset by filling in missing data, detecting outliers and cleaning the data; conducted feature engineering and statistical analysis including label encoding, log transformation, data visualization and feature selection. Built and tuned a Random Forest model to increase the mean absolute error by 102% compared to benchmark.
 
 - project: Movie Recommender System
   role: Primary Developer
-  duration: 08/2017 &mdash; 09/2017
+  duration: 2017
   # url: "#"
-  description: Built a recommender system to recommend movies based on an adapted Netflix user dataset.(JAVA)<ul class="resume-item-list"><li>Computed top 5 recommendations for each user.(item collaborative filtering)</li><li>Processed 1GB data by Hadoop MapReduce jobs in the environment set up by Docker.</li></ul>
+  description: Developed and built independent project that recommends five movie titles to the user based on their viewing preferences  (using Item-based Collaborative Filtering and JAVA). The system utilized Netflix user data via Hadoop.
 
 - project: Twitter Sentiment Analysis
   role: Primary Developer
-  duration: 08/2016 &mdash; 09/2016
+  duration: 2016
   # url: "#"
-  description: <ul class="resume-item-list"><li>Extracted live streaming twitter by Python and Oauth2 library.</li><li>Implemented the module calculating term frequency and document frequency</li><li>Used Apache Spark and Scala to derive Tweet Sentiment Score.</li></ul>
+  description: Course project for Data Mining at USC to calculate the sentiment scores of tweets. Extracted live tweets from Python and Oauth2 libraries and implemented the module calculating term frequency and document frequency. Used Apache Spark and Scala to derive Tweet Sentiment Score.
 
 - project: Weenix OS
   role: Primary Developer
-  duration: 01/2016 &mdash; 05/2016
+  duration: 2016
   # url: "#"
-  description: Mini Unix-like OS kernel written in C in Linux Environment<ul class="resume-item-list"><li>Implemented key components including process management, drivers for terminals and hard disks, VFS, and page-based virtual memory</li><li>Implemented system calls including fork, waitpid, execve, open, read/write, mmap, sbrk, etc.</li></ul>
+  description: For the USC course Operating Systems taught by Dr. Bill Cheng, built a Unix-like OS kernel written in C in a Linux Environment. Implemented key components—process management, drivers for terminals and hard drives, VFS and page-based virtual memory—and system calls including fork, waitpid, execve, open, read/write, mmap and sbrk.
+
