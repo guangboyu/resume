@@ -2,16 +2,16 @@
 # uncomment the urls if you wish to display them, and add your own URL
 
 # jazznotes.io
-- project: Energy Star Score Prediction
+- project: Tap News, Real-Time News Scraping and Recommendation System
   role: Primary Developer
-  duration: 01/2018 &mdash; 02/2018
-  description: Built a data pipeline to clean, analysis the building energy dataset and developed a model to predict the energy star score.<ul class="resume-item-list"><li>Visualizing the relationship between features and remove collinear features via matplotlib and seaborn.</li><li>Used Gradient Boosting model and tuned hyperparameters to increased the MAE by 35% compared to Linear Regression.
+  duration: 2018
+  description: <ul class="resume-item-list"><li>Implemented a data pipeline which monitors, scrapes and dedupes latest news (MongoDB, Redis, RabbitMQ)</li><li>Implemented a click event log processor which collects users’ click logs, then updates a news preference model for each user (NLP, TF-IDF)</li><li>Designed and built an offline training pipeline for news topic modeling (Tensorflow, DNN, NLP)</li></ul>
 
-- project: Byte Cup Machine Learning Competition
+- project: Surgery Blood Cell Prediction
   role: Primary Developer
-  duration: 2016
+  duration: 2017
   # url: "#"
-  description: International Machine Learning Competition hosted by IEEE-China and Toutiao in which teams attempt to build the most accurate predictive models of community-based questions and answers. Constructed a 2-layer Stacking model in which the first layer used Factorization Machine (FM), LR and XGBoost as the base model, which were merged and then generated the meta-features. The second layer extracted SVD, TSNE, NMF dimension reduction information from the first layer FM model and combined this with the meta-features from the first-layer to train an XGBoost model.
+  description: In collaboration with USC’s Keck Hospital, built a Machine Learning system that optimizes the amount of blood required for surgical procedures. (Scikit-Learn, Python, Numpy, Pandas)<ul class="resume-item-list"><li>Pre-processed the dataset by filling in missing data, detecting outliers and cleaning the data</li><li>conducted feature engineering and statistical analysis including label encoding, log transformation, data visualization, and feature selection</li><li>Built and tuned a Random Forest model to increase the MAE by 102% compared to the benchmark.</li></ul>
 
 
 # Springfield Community Outreach Group
@@ -20,26 +20,19 @@
 #   duration: 04/2018 &mdash; 05/2018
 #   # url: "#"
 #   description: Implemented a data pipeline which monitors, scrapes and dedupes latest news. (MongoDB, Redis, RabbitMQ, TF-IDF)<ul class="resume-item-list"><li>Built a single-page web application for users to browse news. (React, Node.js, RPC, SOA, JWT)</li><li>Implemented a click event log processor which collects users’ click logs, then updates a news preference model for each user. (NLP)</li><li>Designed and built an offline training pipeline for news topic modeling. (Tensorflow, DNN, NLP)</li><li>Deployed an online classifying service for news topic modeling using the trained model.</li></ul>
-- project: Surgery Blood Cell Prediction
+- project: Byte Cup Machine Learning Competition
   role: Primary Developer
-  duration: 2017
-  description: In collaboration with USC’s Keck Hospital, built a Machine Learning system that optimizes the amount of blood required for surgical procedures. Pre-processed the dataset by filling in missing data, detecting outliers and cleaning the data; conducted feature engineering and statistical analysis including label encoding, log transformation, data visualization and feature selection. Built and tuned a Random Forest model to increase the mean absolute error by 102% compared to benchmark.
+  duration: 2016
+  description: International Machine Learning Competition hosted by IEEE-China and Toutiao in which teams attempt to build the most accurate predictive models of community-based questions and answers.<ul class="resume-item-list"><li>Constructed a 2-layer Stacking model in which the first layer used Factorization Machine (FM), LR, and XGBoost as the base model, which were merged and then generated the meta-features.</li><li>The second layer extracted SVD, TSNE, NMF dimension reduction information from the first layer FM model and combined this with the meta-features from the first-layer to train an XGBoost model.</li></ul>
 
 - project: Movie Recommender System
   role: Primary Developer
   duration: 2017
   # url: "#"
-  description: Developed and built independent project that recommends five movie titles to the user based on their viewing preferences  (using Item-based Collaborative Filtering and JAVA). The system utilized Netflix user data via Hadoop.
-
-- project: Twitter Sentiment Analysis
-  role: Primary Developer
-  duration: 2016
-  # url: "#"
-  description: Course project for Data Mining at USC to calculate the sentiment scores of tweets. Extracted live tweets from Python and Oauth2 libraries and implemented the module calculating term frequency and document frequency. Used Apache Spark and Scala to derive Tweet Sentiment Score.
+  description: <ul class="resume-item-list"><li>Built a movie recommendation system system based on adapted Netflix user dataset via Hadoop</li><li>Computed top 5 recommendations for each user (Item-based Collaborative Filtering, JAVA)</li><li>Processed 1GB data by Hadoop MapReduce jobs in the environment set up by Docker</li></ul>
 
 - project: Weenix OS
   role: Primary Developer
   duration: 2016
   # url: "#"
-  description: For the USC course Operating Systems taught by Dr. Bill Cheng, built a Unix-like OS kernel written in C in a Linux Environment. Implemented key components—process management, drivers for terminals and hard drives, VFS and page-based virtual memory—and system calls including fork, waitpid, execve, open, read/write, mmap and sbrk.
-
+  description: For the USC course Operating Systems taught by Dr. Bill Cheng, built a Unix-like OS kernel written in C in a Linux Environment. <ul class="resume-item-list"><li>Implemented key components—Process Management, drivers for terminals and hard drives, Virtual File System and page-based Virtual Memory</li></ul>

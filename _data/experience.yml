@@ -1,14 +1,14 @@
 # Jobs
 # VP of Global Communications
-- company: New Beast Corporation
-  position: Software Engineer
-  duration: Aug, 2017 &mdash; Jul, 2018
-  summary: Designed and built data pipeline that monitors, scrapes and dedupes articles for news aggregator company that offers personalized feeds based on user behavior. Implemented a click event log processor that updates the feed based on user click logs through NLP.<ul class="resume-item-list"><li>Primarily utilized MongoDB, Redis, RabbitMQ and TF-IDF. </li><li>Built single-page web application for news browsing using React, Node.js, RPC, SOA, JWT </li></ul>
+- company: Worcester Polytechnic Institute
+  position: Research Assistant
+  duration: May, 2019 &mdash; Present
+  summary: Conduct data analyses of music features and explored Deep Learning models for various Music Information Retrieval topics (Tensorflow, Keras, Librosa)<ul class="resume-item-list"><li>Developed pitch correction model via Phase-Vocoder method and Deep Learning CGRU structure to make karaoke vocal in tune. Smoothing out the borders between pitches to make the voice sounds more realistic. </li><li>Extracted music mel-spectrogram feature and built music genre classifier via CNN model </li></ul>
 
 
-- company: Luzhou Hospital
-  position: Java Software Engineer(Intern)
-  duration: Jan, 2015 &mdash; May, 2015
-  summary: Developed and maintained backend API of hospital’s e-commerce system via SSM framework and implemented QR code payment module with Alipay SDK.
+- company: Northwestern University
+  position: Research Assistant
+  duration: 2017 &mdash;2018
+  summary: Participated in the Liver Fibrosis project and conduct statistical analyses (Python, Scikit-Learn)<ul class="resume-item-list"><li>Built the correlation of the independent common features between donors and recipients</li><li>Built models to predict patients’ life so that optimize the process of matching liver donors with recipients</li></ul>
 
 

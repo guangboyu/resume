@@ -1,11 +1,11 @@
 # Skills
 # Organizational leadership
 - skill: Programming Language
-  description: <ul class="resume-item-list"><li>Python</li><li>Java</li><li>Javascript</li><li>C</li><li>Scala</li><ul>
+  description: Python, Java, Javascript, C, Scala.
 # Communications strategy
 - skill: Data & Machine Learning
-  description: <ul class="resume-item-list"><li>Hadoop</li><li>Spark</li><li>Data Mining</li><li>Machine Learning<li>Pandas, NumPy, scikit-learn</li></ul>
+  description: Machine Learning, Deep Learning, Natural Language Processing, Data Mining.
 
 # Digital content development and creation
-- skill: Web Development
-  description: <ul class="resume-item-list"><li>React</li><li>Node.js</li><li>Spring</li><li>Django</li></ul>
+- skill: Tools
+  description: Scikit-Learn, Tensorflow, Keras, Pytorch, Numpy, Pandas, Hadoop, Spark, Matplotlib, Seaborn, Librosa
