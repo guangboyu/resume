@@ -2,10 +2,11 @@
 # uncomment the urls if you wish to display them, and add your own URL
 
 # jazznotes.io
-- project: Tap News, Real-Time News Scraping and Recommendation System
+- project: SQuAD QuestionAnswering Challange
   role: Primary Developer
-  duration: 2018
-  description: <ul class="resume-item-list"><li>Implemented a data pipeline which monitors, scrapes and dedupes latest news (MongoDB, Redis, RabbitMQ)</li><li>Implemented a click event log processor which collects users’ click logs, then updates a news preference model for each user (NLP, TF-IDF)</li><li>Designed and built an offline training pipeline for news topic modeling (Tensorflow, DNN, NLP)</li></ul>
+  duration: 2019
+  # url: "#"
+  description: Given a paragraph and a question about it. Trained a system to answer the question correctly by highlighting a section of the corresponding paragraph. (Pytorch, NLTK)<ul class="resume-item-list"><li>Trained a neural network model based on BiDAF and R-net, which contains embedding, attention, modeling, and output layer </li><li>Tuned the hyperparameters, added more components like Self-Attention to the network and gained a 72.5% F1 score</li></ul>
 
 - project: Surgery Blood Cell Prediction
   role: Primary Developer
@@ -13,13 +14,6 @@
   # url: "#"
   description: In collaboration with USC’s Keck Hospital, built a Machine Learning system that optimizes the amount of blood required for surgical procedures. (Scikit-Learn, Python, Numpy, Pandas)<ul class="resume-item-list"><li>Pre-processed the dataset by filling in missing data, detecting outliers and cleaning the data</li><li>conducted feature engineering and statistical analysis including label encoding, log transformation, data visualization, and feature selection</li><li>Built and tuned a Random Forest model to increase the MAE by 102% compared to the benchmark.</li></ul>
 
-
-# Springfield Community Outreach Group
-# - project: Tap News, Real-Time News Scraping and Recommendation System
-#   role: Primary Developer
-#   duration: 04/2018 &mdash; 05/2018
-#   # url: "#"
-#   description: Implemented a data pipeline which monitors, scrapes and dedupes latest news. (MongoDB, Redis, RabbitMQ, TF-IDF)<ul class="resume-item-list"><li>Built a single-page web application for users to browse news. (React, Node.js, RPC, SOA, JWT)</li><li>Implemented a click event log processor which collects users’ click logs, then updates a news preference model for each user. (NLP)</li><li>Designed and built an offline training pipeline for news topic modeling. (Tensorflow, DNN, NLP)</li><li>Deployed an online classifying service for news topic modeling using the trained model.</li></ul>
 - project: Byte Cup Machine Learning Competition
   role: Primary Developer
   duration: 2016
@@ -36,3 +30,8 @@
   duration: 2016
   # url: "#"
   description: For the USC course Operating Systems taught by Dr. Bill Cheng, built a Unix-like OS kernel written in C in a Linux Environment. <ul class="resume-item-list"><li>Implemented key components—Process Management, drivers for terminals and hard drives, Virtual File System and page-based Virtual Memory</li></ul>
+
+- project: Tap News, Real-Time News Scraping and Recommendation System
+  role: Primary Developer
+  duration: 2015
+  description: <ul class="resume-item-list"><li>Implemented a data pipeline which monitors, scrapes and dedupes latest news (MongoDB, Redis, RabbitMQ)</li><li>Implemented a click event log processor which collects users’ click logs, then updates a news preference model for each user (NLP, TF-IDF)</li><li>Designed and built an offline training pipeline for news topic modeling (Tensorflow, DNN, NLP)</li></ul>
