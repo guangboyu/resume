@@ -3,7 +3,7 @@
 - company: Worcester Polytechnic Institute
   position: Research Assistant
   duration: May, 2019 &mdash; Present
-  summary: Conduct data analyses of music features and explored Deep Learning models for various Music Information Retrieval topics (Tensorflow, Keras, Librosa)<ul class="resume-item-list"><li>Developed pitch correction model via Phase-Vocoder method to make karaoke vocal in tune. Smoothing out the borders between pitches to make the voice sounds more realistic. </li><li>Extracted music mel-spectrogram feature and built music genre classifier via CNN model </li></ul>
+  summary: Conduct data analyses of music features and explored Deep Learning models for various Music Information Retrieval topics (Tensorflow, Keras, Librosa)<ul class="resume-item-list"><li>Developed pitch correction model via Phase-Vocoder method and neural network models to make karaoke vocal in tune. Smoothing out the borders between pitches to make the voice sounds more realistic. </li><li>Extracted music mel-spectrogram feature and built music genre classifier via CNN model </li></ul>
 
 
 - company: Northwestern University
